@@ -5,9 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "tauri:dev": "pnpm tauri dev",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "format": "prettier --write src/",
+    "tauri": "tauri",
+    "lint": "eslint src --fix",
+    "test:all": "pnpm test run && cd src-tauri && cargo test"
   },
   "dependencies": {
     "@tauri-apps/api": "^1",
