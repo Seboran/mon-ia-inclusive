@@ -8,11 +8,6 @@ const message = ref('')
 
 const reponseIa = ref('')
 
-// curl http://localhost:11434/api/generate -d '{
-//   "model": "llama3.1",
-//   "prompt": "Why is the sky blue?"
-// }'
-
 async function requestOllama() {
   const response = await ollama.chat({
     model: 'phi3:14b',
