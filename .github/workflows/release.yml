@@ -1,7 +1,9 @@
 on:
-  push:
-    branches:
-      - main # or main
+  workflow_call:
+    secrets:
+      PAT:
+        description: Github token to trigger subsequent workflows
+        required: true
 
 permissions:
   contents: read # for checkout

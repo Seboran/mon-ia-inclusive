@@ -1,0 +1,14 @@
+name: CI on push
+
+on:
+  push:
+
+jobs:
+  test:
+    uses: ./.github/workflows/test-on-call.yml
+
+  release:
+    needs: [test]
+    uses: ./.github/workflows/release.yml
+    secrets:
+      PAT: ${{ secrets.PAT }}

@@ -1,6 +1,7 @@
-name: 'test-on-push'
+name: 'test-on-call'
 
-on: [push]
+on:
+  workflow_call:
 
 # This workflow will build your tauri app without uploading it anywhere.
 
