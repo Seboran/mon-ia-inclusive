@@ -2,7 +2,8 @@ name: CI on push
 
 on:
   push:
-
+permissions:
+  contents: read # for checkout
 jobs:
   test:
     uses: ./.github/workflows/test-on-call.yml
