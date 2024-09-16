@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <div v-html="md.render(messageMarkdown)"></div>
+  <div class="bg-white p-4 border rounded-md border-gray-200 w-full">
+    <div
+      class="leading-7 [&:not(:first-child)]:mt-6 w-full"
+      v-html="md.render(messageMarkdown)"
+    ></div>
   </div>
 </template>
 
