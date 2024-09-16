@@ -5,6 +5,6 @@ suite('App', () => {
   test('Place holder test', () => {
     // TODO
     const { getByRole } = render(App)
-    expect(getByRole('heading').textContent).toEqual('Mon IA inclusive 💖')
+    expect(getByRole('heading').textContent?.trim()).toEqual('Mon IA inclusive 💖')
   })
 })
