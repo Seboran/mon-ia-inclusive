@@ -55,7 +55,7 @@
     "tailwindcss": "3.4.13",
     "typescript": "5.5.4",
     "unplugin-vue-router": "0.10.8",
-    "vercel": "37.1.1",
+    "vercel": "37.7.1",
     "vite": "5.4.8",
     "vite-plugin-vue-devtools": "7.3.9",
     "vitest": "2.0.5",
