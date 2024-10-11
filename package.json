@@ -38,7 +38,7 @@
     "@testing-library/vue": "8.1.0",
     "@tsconfig/node20": "20.1.4",
     "@types/markdown-it": "14.1.2",
-    "@types/node": "20.16.10",
+    "@types/node": "20.16.11",
     "@vercel/node": "3.2.18",
     "@vitejs/plugin-vue": "5.1.4",
     "@vitest/coverage-v8": "2.0.5",
