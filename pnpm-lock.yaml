@@ -82,8 +82,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5(vitest@2.0.5(@edge-runtime/vm@3.2.0)(@types/node@20.16.11)(happy-dom@15.0.0))
       '@vue/eslint-config-prettier':
-        specifier: 9.0.0
-        version: 9.0.0(eslint@8.57.1)(prettier@3.3.3)
+        specifier: 10.1.0
+        version: 10.1.0(eslint@8.57.1)(prettier@3.3.3)
       '@vue/eslint-config-typescript':
         specifier: 13.0.0
         version: 13.0.0(eslint-plugin-vue@9.27.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.5.4)
@@ -1051,10 +1051,10 @@ packages:
   '@vue/devtools-shared@7.4.5':
     resolution: {integrity: sha512-2XgUOkL/7QDmyYI9J7cm+rz/qBhcGv+W5+i1fhwdQ0HQ1RowhdK66F0QBuJSz/5k12opJY8eN6m03/XZMs7imQ==}
 
-  '@vue/eslint-config-prettier@9.0.0':
-    resolution: {integrity: sha512-z1ZIAAUS9pKzo/ANEfd2sO+v2IUalz7cM/cTLOZ7vRFOPk5/xuRKQteOu1DErFLAh/lYGXMVZ0IfYKlyInuDVg==}
+  '@vue/eslint-config-prettier@10.1.0':
+    resolution: {integrity: sha512-J6wV91y2pXc0Phha01k0WOHBTPsoSTf4xlmMjoKaeSxBpAdsgTppGF5RZRdOHM7OA74zAXD+VLANrtYXpiPKkQ==}
     peerDependencies:
-      eslint: '>= 8.0.0'
+      eslint: '>= 8.21.0'
       prettier: '>= 3.0.0'
 
   '@vue/eslint-config-typescript@13.0.0':
@@ -4560,7 +4560,7 @@ snapshots:
     dependencies:
       rfdc: 1.4.1
 
-  '@vue/eslint-config-prettier@9.0.0(eslint@8.57.1)(prettier@3.3.3)':
+  '@vue/eslint-config-prettier@10.1.0(eslint@8.57.1)(prettier@3.3.3)':
     dependencies:
       eslint: 8.57.1
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
